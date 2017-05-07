@@ -27,6 +27,7 @@ public class MVCApplication extends Application {
         //Separator by Android Version
         if(Build.VERSION.SDK_INT >= 21){
             //Run on android 21+
+            Toast.makeText(this,"Android Version "+Build.VERSION.SDK_INT ,Toast.LENGTH_SHORT).show();
         }else{
             //Run on android 1-20
         }
